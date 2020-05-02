@@ -1,1 +1,4 @@
 node_modules
+tests/reports/selenium-server-logs
+tests/reports/html/*.html
+tests/reports/json/tmp/*.json
