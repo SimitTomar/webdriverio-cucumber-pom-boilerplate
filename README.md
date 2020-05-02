@@ -1,7 +1,4 @@
-# 1. Overview:
-A WebdriverIO & Cucumber Boilerplate based on Page Object Model
-
-# 2. Features:
+# Features:
 * Supports Page Object Model
 * Compatible with Nodejs Versions 8.x.x to 13.x.x
 * Contains sample Scenarios written in Declarative style of BDD
@@ -12,14 +9,14 @@ A WebdriverIO & Cucumber Boilerplate based on Page Object Model
 * Integrated with [wdio-cucumber-parallel-execution](https://www.npmjs.com/package/wdio-cucumber-parallel-execution) module for parallel execution
 
 
-# 3. Installation
+# Installation
 
 ```
 npm install
 ```
 
 
-# 4. Running the Sample Scenarios
+# Running the Sample Scenarios
 
 ```
 npm run test
