@@ -1,0 +1,31 @@
+{
+  "name": "webdriverio-cucumber-pom-boilerplate",
+  "version": "1.0.0",
+  "description": "A WebdriverIO & Cucumber Boilerplate based on Page Object Model",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js --parallel=false"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber",
+    "page object model",
+    "pom"
+  ],
+  "author": "Simit Tomar",
+  "license": "MIT",
+  "devDependencies": {
+    "@rpii/wdio-html-reporter": "^0.8.6",
+    "@wdio/cli": "^6.0.13",
+    "@wdio/cucumber-framework": "^6.0.13",
+    "@wdio/local-runner": "^6.0.13",
+    "@wdio/spec-reporter": "^5.22.4",
+    "@wdio/sync": "^6.0.12",
+    "chromedriver": "^80.0.2",
+    "cucumber-html-reporter": "^5.2.0",
+    "eslint": "^6.8.0",
+    "selenium-standalone": "^6.17.0",
+    "wdio-cucumber-parallel-execution": "^3.6.7",
+    "wdio-cucumberjs-json-reporter": "^1.2.0"
+  },
+  "dependencies": {}
+}
