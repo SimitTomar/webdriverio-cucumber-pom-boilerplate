@@ -197,6 +197,10 @@ exports.config = {
     onPrepare: () => {
         // Remove the `tmp/` folder that holds the json report files
         removeSync(jsonTmpDirectory);
+        if (!fs.existsSync(jsonTmpDirectory)){
+            fs.mkdirSync(jsonTmpDirectory);
+        }
+
     },
     /**
      * Gets executed before a worker process is spawned and can be used to initialise specific service

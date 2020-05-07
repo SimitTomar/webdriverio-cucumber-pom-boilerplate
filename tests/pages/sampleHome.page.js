@@ -1,8 +1,6 @@
 const NativePage = require('./native.page.js');
 const webdriverIOHomePageData = require('../files/testData/sampleHome.data.js');
 
-const actionLib = require('tang-js-ui-lib').actionsLib;
-
 class sampleHomePage extends NativePage {
 
   get webdriverIOHomePageElement() {
